@@ -13,14 +13,14 @@ It includes:
 From this directory, run:
 
 ```bash
-docker build -t yourusername/microlakehouse:1.0.0-beta.1 .
-docker tag yourusername/microlakehouse:1.0.0-beta.1 yourusername/microlakehouse:latest
+docker build -t pvr2114/microlakehouse:1.0.0-beta.1 .
+docker tag pvr2114/microlakehouse:1.0.0-beta.1 pvr2114/microlakehouse:latest
 ```
 
 ## How to Run
 
 ```bash
-docker run -d -p 8888:8888 -p 8080:8080 -p 9000:9000 -p 9001:9001 -p 4040:4040 yourusername/microlakehouse:1.0.0-beta.1
+docker run -d -p 8888:8888 -p 8080:8080 -p 9000:9000 -p 9001:9001 -p 4040:4040 pvr2114/microlakehouse:1.0.0-beta.1
 ```
 
 ## Ports
